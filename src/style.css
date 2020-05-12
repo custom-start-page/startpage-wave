@@ -1,10 +1,10 @@
-/* ------------- FONTS ------------- */ 
+/* ------------- FONTS ------------- */
 @font-face {
   font-family: 'test';
   src: url('test.woff') format('woff');
 }
 
-/* ------------- STARTER ------------- */ 
+/* ------------- STARTER ------------- */
 
 *{
   margin:0;
@@ -38,7 +38,7 @@ a, a:visited, a:hover, .box .box-container:hover, .box .box-container {
 	box-shadow: 4px 4px 15px -5px rgba(0,0,0,0.25);
 }
 
-/* ------------- CONTAINER STYLING ------------- */ 
+/* ------------- CONTAINER STYLING ------------- */
 
 .container {
 	display: flex;
@@ -49,7 +49,7 @@ a, a:visited, a:hover, .box .box-container:hover, .box .box-container {
 	min-height: 100vh;
 }
 
-/* ------------- LINK STYLING ------------- */ 
+/* ------------- LINK STYLING ------------- */
 
 a, a:visited {
 	color: #6C7789;
@@ -61,17 +61,18 @@ a:hover {
 
 a, a:visited, a:hover {
 	text-decoration: none;
-	
+
 }
 
-.box .box-container .link {
+.box .box-container a {
+	display: block;
 	font-family: 'test';
 	font-size: 28px;
 	padding: 20px 0 0 15px;
 	text-align: left;
 }
 
-/* ------------- TIME STYLING ------------- */ 
+/* ------------- TIME STYLING ------------- */
 
 .container .time {
 	font-family: 'test';
@@ -79,17 +80,18 @@ a, a:visited, a:hover {
 	margin-bottom: 20px;
 }
 
-/* ------------- BOX STYLING ------------- */ 
+/* ------------- BOX STYLING ------------- */
 
 .box {
+	display: flex;
 	width: 950px;
 }
 
 .box .box-container {
 	background-color: #2E3441;
 	width: 200px;
-	height: 220px;
 	float: left;
+	padding:25px 10px;
 	border-radius: 5px;
 }
 
@@ -104,7 +106,7 @@ a, a:visited, a:hover {
 	text-align: left;
 }
 
-/* ------------- SEARCH STYLING ------------- */ 
+/* ------------- SEARCH STYLING ------------- */
 
 .container form {
 	background-color: #2E3441;
@@ -151,7 +153,7 @@ a, a:visited, a:hover {
 	bottom: -3px;
 }
 
-/* ------------- WAVE ANIMATION ------------- */ 
+/* ------------- WAVE ANIMATION ------------- */
 
 .wave-container .wave{
 	position:absolute;
@@ -184,7 +186,7 @@ a, a:visited, a:hover {
 	opacity:0.2;
 	animation-delay:-2s;
 	bottom: 15px;
-	
+
 }
 .wave-container .wave.wave4{
 	animation:animate2 5s linear infinite;
@@ -210,7 +212,7 @@ a, a:visited, a:hover {
 	}
 }
 
-/* ------------- MEDIA QUERY ------------- */ 
+/* ------------- MEDIA QUERY ------------- */
 
 @media only screen and (max-width: 985px) {
 	.box-container:nth-child(4), .box-container:nth-child(3) {
@@ -221,5 +223,5 @@ a, a:visited, a:hover {
 	}
 	.box {
 		width: 450px;
-	}  
+	}
 }

@@ -1,0 +1,45 @@
+{
+  "properties": {
+    "linkGroups": {
+      "type": "array",
+      "title": "Link Groups",
+      "description": "Create links in groups",
+      "items": {
+        "type": "object",
+        "title": "Link Group",
+        "properties": {
+          "name": {
+              "type": "string",
+              "title": "Group Name",
+              "description": "Give the group a name that will appear at the title of this group of links"
+          },
+          "links": {
+            "type": "array",
+            "title": "Links",
+            "items": {
+              "type": "object",
+              "title": "Link",
+              "description": "A single link to a website which belongs in the parent group",
+              "required": [
+                "name",
+                "url"
+              ],
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "title": "Name",
+                  "description": "Name of the website you're linking to"
+                },
+                "url": {
+                  "type": "string",
+                  "title": "URL",
+                  "description": "Link with 'http://' to the website"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
