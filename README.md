@@ -5,6 +5,7 @@ https://github.com/custom-start-page/wave
 ![preview image](/src/manifest/preview.png)
 
 Original source: https://github.com/Tobias-Schoch/startpage-wave
+
 Found via a Reddit post: https://www.reddit.com/r/startpages/comments/ggcfit/with_source_if_you_want_3/
 
 ## Hosting
