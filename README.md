@@ -24,7 +24,7 @@ You can't just open the `/src/index.html` file in your web browser as this start
 Firefox will give the error:
 
 ```
-Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at file:///D:/Dev/Sites/custom-start-page/retroracle/src/manifest/defaultData.json. (Reason: CORS request not http).
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at file:///waves/src/manifest/defaultData.json. (Reason: CORS request not http).
 ```
 
 For local development, you can use a development web server such as:
