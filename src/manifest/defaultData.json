@@ -22,15 +22,6 @@
    ]
   },
   {
-   "name": "Study",
-   "links": [
-    {
-     "name": "Github",
-     "url": "https://github.com"
-    }
-   ]
-  },
-  {
    "name": "Creative",
    "links": [
     {
@@ -57,6 +48,10 @@
     {
      "name": "Amazon",
      "url": "https://amazon.com"
+    },
+    {
+     "name": "Github",
+     "url": "https://github.com"
     }
    ]
   }

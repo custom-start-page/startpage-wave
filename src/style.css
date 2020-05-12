@@ -84,13 +84,13 @@ a, a:visited, a:hover {
 
 .box {
 	display: flex;
+	justify-content: center;
 	width: 950px;
 }
 
 .box .box-container {
 	background-color: #2E3441;
 	width: 200px;
-	float: left;
 	padding:25px 10px;
 	border-radius: 5px;
 }
