@@ -1,12 +1,10 @@
 {
-    "version": "1.0.0",
+    "version": "2.0.0",
     "name": "Wave",
-    "slug": "wave",
     "author": {
         "name": "Tobias-Schoch",
         "link": "https://github.com/Tobias-Schoch/startpage-wave"
     },
-    "preview": "preview.png",
     "features": [
         "links",
         "search bar"

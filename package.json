@@ -1,0 +1,23 @@
+{
+  "name": "wave",
+  "version": "2.0.0",
+  "description": "https://github.com/custom-start-page/wave",
+  "dependencies": {},
+  "devDependencies": {
+    "custom-start-page-tool": "0.0.3"
+  },
+  "scripts": {
+    "start": "cd src && node ../node_modules/custom-start-page-tool/ server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/custom-start-page/wave.git"
+  },
+  "author": "@harvzor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/custom-start-page/dwave/issues"
+  },
+  "homepage": "https://github.com/custom-start-page/wave#readme"
+}
